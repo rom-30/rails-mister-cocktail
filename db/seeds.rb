@@ -1,7 +1,32 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+puts "Test"
+
+Ingredient.create(name: 'Lemon')
+Ingredient.create(name: 'Ice')
+Ingredient.create(name: 'Mint leaves')
+Ingredient.create(name: 'Rum')
+Ingredient.create(name: 'Dark Rum')
+Ingredient.create(name: 'Applejack')
+Ingredient.create(name: 'Gin')
+Ingredient.create(name: 'Dark rum')
+Ingredient.create(name: 'Sweet Vermouth')
+Ingredient.create(name: 'Strawberry schnapps')
+Ingredient.create(name: 'Scotch')
+Ingredient.create(name: 'Apricot brandy')
+Ingredient.create(name: 'Triple sec')
+Ingredient.create(name: 'Southern Comfort')
+Ingredient.create(name: 'Orange bitters')
+Ingredient.create(name: 'Brandy')
+Ingredient.create(name: 'Lemon vodka')
+Ingredient.create(name: 'Dry Vermouth')
+Ingredient.create(name: 'Amaretto')
+Ingredient.create(name: 'Champagne')
+Ingredient.create(name: 'Bourbon')
+Ingredient.create(name: 'Tequila')
+Ingredient.create(name: 'Vodka')
+Ingredient.create(name: 'Añejo rum')
+Ingredient.create(name: 'Sugar')
+Ingredient.create(name: 'Coca-Cola')
+Ingredient.create(name: 'Vodka')
+Ingredient.create(name: 'Milk')
+Ingredient.create(name: 'Baileys')
+Ingredient.create(name: 'Kahlua')

@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1>Pick a cocktail</h1>
+
+
+
+
+      <div class="list-group">
+        <!-- The line below sorts everything alphabetically -->
+        <% Cocktail.order(:name).each do |cocktail| %>
+          <p class="list-group-item">
+            <%= link_to cocktail.name, cocktail_path(cocktail) %>
+          </p>
+        <% end %>
+      </div>
+      <%= link_to "Add a cocktail", new_cocktail_path, class: 'btn btn-primary' %>
+    </div>
+  </div>
+</div>
