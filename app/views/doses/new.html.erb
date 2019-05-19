@@ -1,13 +1,17 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <h1>Add a dose</h3>
-      <%= simple_form_for [@cocktail, @dose] do |f| %>
+      <h1>Add a dose</h1>
 
-        <%= f.association :ingredient %>
-        <%= f.input :description %>
-        <%= f.button :submit, class: "btn btn-primary" %>
-      <% end %>
+        <div>
+          <%= simple_form_for [@cocktail, @dose] do |f| %>
+
+            <%= f.association :ingredient %>
+            <%= f.input :description %>
+            <%= f.button :submit, class: "btn btn-primary" %>
+          <% end %>
+
+        </div>
 
 
       <%= link_to "Back to list", cocktail_path(@cocktail) %>

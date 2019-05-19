@@ -30,3 +30,7 @@ Ingredient.create(name: 'Vodka')
 Ingredient.create(name: 'Milk')
 Ingredient.create(name: 'Baileys')
 Ingredient.create(name: 'Kahlua')
+Ingredient.create(name: 'Lime Juice')
+Ingredient.create(name: 'Demerara Sugar Syrup')
+Ingredient.create(name: 'Lime twist')
+
